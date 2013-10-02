@@ -12,14 +12,15 @@
     <![endif]-->
     <style type="text/css">
       body { margin-top: 50px; font-size: 16px; }
-      header { margin: 80px 0px 0px 0px; }
-      footer { margin: 80px 0px; }
+      header { margin: 0px; }
+      footer { margin: 100px 0px 50px; }
+      section:first-child { margin-top: 100px; }
       section h2 { padding-top: 40px; }
       p { text-align: justify; }
     </style>
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,96 +29,95 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse text-center">
           <ul class="nav navbar-nav">
             <li><a href="http://perconik.fiit.stuba.sk/">PerConIK Project Site</a></li>
             <li><a href="https://github.com/perconik">GitHub Organization</a></li>
-            <li><a href="docs/index.html">Plug-in Javadocs</a></li>
-            <li><a href="update/index.html">Eclipse Update Site</a></li>
+            <li><a href="docs/index.html">Eclipse Plug-in Javadocs</a></li>
+            <li><a href="update/index.html">Eclipse Plug-in Update Site</a></li>
           </ul>
         </div>
       </div>
-    </div>
+    </header>
   
     <div class="container">
-      <header>
-        <div class="page-header">
-          <h1 id="overview">PerConIK Eclipse Integration</h1>
-        </div>
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10">
 
-<!--        
-        <ul class="list-inline">
-          <li><a href="http://perconik.fiit.stuba.sk/" class="btn btn-primary btn-lg">PerConIK Project Site</a></li>
-          <li><a href="https://github.com/perconik/perconik" class="btn btn-primary btn-lg">Repository</a></li>
-          <li><a href="docs/index.html" class="btn btn-primary btn-lg">Javadocs</a></li>
-          <li><a href="update/index.html" class="btn btn-primary btn-lg">Eclipse Update Site</a></li>
-        </ul>
--->
+          <section>
+            <div class="page-header">
+              <h1 id="overview">PerConIK Eclipse Integration</h1>
+            </div>
 
-          <ul class="list-unstyled">
-            <li><em><a href="http://stuba.sk">Slovak University of Technology in Bratislava</a></em></li>
-            <li><em><a href="http://fiit.stuba.sk">Faculty of Informatics and Information Technologies</a></em></li>
-            <li><em><a href="http://perconik.fiit.stuba.sk/">PerConIK Project Site</a></em></li>
-          </ul>
-      </header>
-      
-      <section>
-        <div class="page-header">
-          <h2 id="requirements">Requirements</h2>
-        </div>
-        
-        <div class="row">
-          <div class="col-md-12">
             <ul class="list-unstyled">
-              <li>Eclipse Platform 4.3.0 or higher<li>
-              <li>UACA (depends on Windows operating system)</li>
+              <li><em><a href="http://stuba.sk">Slovak University of Technology in Bratislava</a></em></li>
+              <li><em><a href="http://fiit.stuba.sk">Faculty of Informatics and Information Technologies</a></em></li>
+              <li><em><a href="http://perconik.fiit.stuba.sk/">PerConIK Project Site</a></em></li>
             </ul>
-          </div>
+          </section>
+          
+          <section>
+            <div class="page-header">
+              <h2 id="requirements">Requirements</h2>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="list-unstyled">
+                  <li>Eclipse Platform 4.3.0 or higher<li>
+                  <li>UACA (depends on Windows operating system)</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+          <section>
+            <div class="page-header">
+              <h2 id="installation">Installation</h2>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12">
+                <p>
+                  <em>Eclipse</em> &rarr; <em>Help</em> &rarr; <em>Install new software...</em> &rarr; <em>Available software sites</em> &rarr; <em>Add</em>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1">
+                <p>
+                  Name:<br/>
+                  Location:
+                </p>
+              </div>
+              <div class="col-md-5">
+                <p>
+                  PerConIK Eclipse Integration<br/>
+                  http://perconik.github.io/update
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p>
+                  (see <a href="update/index.html">Eclipse Plug-in Update Site</a> for more details about current stable plug-in version)
+                </p>
+              </div>
+            </div>
+          </section>
+          
         </div>
-      </section>
-      
-      <section>
-        <div class="page-header">
-          <h2 id="installation">Installation</h2>
-        </div>
-        
-        <div class="row">
-          <div class="col-md-12">
-            <p>
-              <em>Eclipse</em> &rarr; <em>Help</em> &rarr; <em>Install new software...</em> &rarr; <em>Available software sites</em> &rarr; <em>Add</em>
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-1">
-            <p>
-              Name:<br/>
-              Location:
-            </p>
-          </div>
-          <div class="col-md-11">
-            <p>
-              PerConIK Eclipse Integration<br/>
-              http://perconik.github.io/update
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p>
-              (see <a href="update/index.html">Eclipse Update Site</a> for more details about current stable plug-in version)
-            </p>
-          </div>
-        </div>
-      </section>
-      
-      <footer>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
         <p class="text-center text-muted">
           <small>Copyright 2013 Faculty of Informatics and Information Technologies, Slovak University of Technology in Bratislava. All Rights Reserved.</small>
         </p>
-      </footer>
-    </div>
-
+      </div>
+    </footer>
+    
     <script src="javascripts/jquery.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
   </body>
