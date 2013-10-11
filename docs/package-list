@@ -5,6 +5,7 @@ com.gratex.perconik.services.activity
 com.gratex.perconik.services.plugin
 sk.stuba.fiit.perconik.core
 sk.stuba.fiit.perconik.core.adapters
+sk.stuba.fiit.perconik.core.annotations
 sk.stuba.fiit.perconik.core.java
 sk.stuba.fiit.perconik.core.java.dom
 sk.stuba.fiit.perconik.core.java.dom.difference
@@ -18,6 +19,7 @@ sk.stuba.fiit.perconik.core.services
 sk.stuba.fiit.perconik.core.services.listeners
 sk.stuba.fiit.perconik.core.services.resources
 sk.stuba.fiit.perconik.debug
+sk.stuba.fiit.perconik.debug.annotations
 sk.stuba.fiit.perconik.debug.listeners
 sk.stuba.fiit.perconik.debug.plugin
 sk.stuba.fiit.perconik.debug.resources
@@ -49,4 +51,6 @@ sk.stuba.fiit.perconik.ui.utilities
 sk.stuba.fiit.perconik.utilities
 sk.stuba.fiit.perconik.utilities.constant
 sk.stuba.fiit.perconik.utilities.net
-sk.stuba.fiit.perconik.utilities.reflection
+sk.stuba.fiit.perconik.utilities.reflect
+sk.stuba.fiit.perconik.utilities.reflect.accessor
+sk.stuba.fiit.perconik.utilities.reflect.annotation
