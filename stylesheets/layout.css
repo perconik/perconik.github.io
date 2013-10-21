@@ -1,0 +1,15 @@
+body { margin-top: 50px; font-size: 16px; }
+header { margin: 0px; }
+footer { margin: 100px 0px 50px; }
+
+section:first-child { margin-top: 100px; }
+section h2 { padding-top: 40px; }
+
+p { text-align: justify; }
+
+.dl-horizontal dt { width: 80px; font-weight: normal; text-align: left; }
+.dl-horizontal dd { margin-left: 100px; }
+
+.navbar-brand { font-size: 16px; }
+
+.table-bordered > thead > tr > th { font-weight: normal; border-bottom: none; }
