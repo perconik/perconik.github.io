@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project default="feature_export" name="build">
-	<target name="feature_export">
-		<pde.exportFeatures destination="D:\workspace\perconik.github.io\update" exportSource="false" exportType="directory" features="com.gratex.perconik.activity.feature,com.gratex.perconik.tag.feature,sk.stuba.fiit.perconik.feature" useJARFormat="true"/>
-	</target>
-</project>
