@@ -1,9 +1,12 @@
 com.gratex.perconik.activity
-com.gratex.perconik.activity.listeners
-com.gratex.perconik.activity.plugin
+com.gratex.perconik.activity.ide
+com.gratex.perconik.activity.ide.listeners
+com.gratex.perconik.activity.ide.plugin
 com.gratex.perconik.services.activity
+com.gratex.perconik.services.itm
 com.gratex.perconik.services.plugin
 com.gratex.perconik.services.tag
+com.gratex.perconik.services.vs
 com.gratex.perconik.tag.antlr
 com.gratex.perconik.tag.assistant
 com.gratex.perconik.tag.builder
@@ -28,6 +31,7 @@ sk.stuba.fiit.perconik.core.resources
 sk.stuba.fiit.perconik.core.services
 sk.stuba.fiit.perconik.core.services.listeners
 sk.stuba.fiit.perconik.core.services.resources
+sk.stuba.fiit.perconik.core.utilities
 sk.stuba.fiit.perconik.debug
 sk.stuba.fiit.perconik.debug.annotations
 sk.stuba.fiit.perconik.debug.listeners
