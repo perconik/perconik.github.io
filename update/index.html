@@ -24,7 +24,7 @@
             xmlFile.load("site.xml");
             stylesheet.load("resources/site.xsl");
           } else {
-            alert("Document could not be loaded by browser.");
+            alert("Document could not be loaded by the browser (support for Chrome in progress). Anyway, all information presented here can be viewed directly in Eclipse too.");
           }
           xmlFile.addEventListener("load", transform, false);
           stylesheet.addEventListener("load", transform, false);
