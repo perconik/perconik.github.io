@@ -3,7 +3,7 @@
    <description name="PerConIK Eclipse Integration" url="http://perconik.github.io/update">
       Update site for Eclipse features and plug-ins pertaining to PerConIK research project.
    </description>
-   <feature url="features/com.gratex.perconik.activity.feature_0.1.2.v20131104-0228.jar" id="com.gratex.perconik.activity.feature" version="0.1.2.v20131104-0228">
+   <feature url="features/com.gratex.perconik.activity.feature_0.1.3.v20131104-0306.jar" id="com.gratex.perconik.activity.feature" version="0.1.3.v20131104-0306">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
    <feature url="features/sk.stuba.fiit.perconik.feature_0.1.3.v20131104-0257.jar" id="sk.stuba.fiit.perconik.feature" version="0.1.3.v20131104-0257">
