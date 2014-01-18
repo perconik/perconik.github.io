@@ -60,8 +60,10 @@ sk.stuba.fiit.perconik.eclipse.debug.core
 sk.stuba.fiit.perconik.eclipse.jdt.core
 sk.stuba.fiit.perconik.eclipse.jdt.core.dom
 sk.stuba.fiit.perconik.eclipse.jface.preference
+sk.stuba.fiit.perconik.eclipse.jface.text
 sk.stuba.fiit.perconik.eclipse.jgit.lib
 sk.stuba.fiit.perconik.eclipse.ltk.core.refactoring.history
+sk.stuba.fiit.perconik.eclipse.search.ui.text
 sk.stuba.fiit.perconik.eclipse.swt.widgets
 sk.stuba.fiit.perconik.eclipse.ui
 sk.stuba.fiit.perconik.eclipse.ui.plugin
