@@ -2,6 +2,8 @@ com.gratex.perconik.activity
 com.gratex.perconik.activity.ide
 com.gratex.perconik.activity.ide.listeners
 com.gratex.perconik.activity.ide.plugin
+com.gratex.perconik.activity.ide.preferences
+com.gratex.perconik.activity.ide.ui
 com.gratex.perconik.services
 com.gratex.perconik.services.activity
 com.gratex.perconik.services.ast.rcs
