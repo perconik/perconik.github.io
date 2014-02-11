@@ -9,6 +9,9 @@
    <feature url="features/sk.stuba.fiit.perconik.feature_0.2.4.v20140210-1839.jar" id="sk.stuba.fiit.perconik.feature" version="0.2.4.v20140210-1839">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
+   <feature url="features/com.gratex.perconik.services.feature_0.4.0.v20140211-1133.jar" id="com.gratex.perconik.services.feature" version="0.4.0.v20140211-1133">
+      <category name="sk.stuba.fiit.perconik"/>
+   </feature>
    <feature url="features/com.gratex.perconik.tag.feature_0.2.0.v20140211-1134.jar" id="com.gratex.perconik.tag.feature" version="0.2.0.v20140211-1134">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
