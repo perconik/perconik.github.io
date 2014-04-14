@@ -3,19 +3,19 @@
    <description name="PerConIK Eclipse Integration" url="http://perconik.github.io/update">
       Update site for Eclipse features and plug-ins pertaining to PerConIK research project.
    </description>
-   <feature url="features/com.gratex.perconik.activity.feature_0.5.0.v20140413-1819.jar" id="com.gratex.perconik.activity.feature" version="0.5.0.v20140413-1819">
+   <feature url="features/com.gratex.perconik.activity.feature_0.5.1.v20140414-1151.jar" id="com.gratex.perconik.activity.feature" version="0.5.1.v20140414-1151">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
-   <feature url="features/sk.stuba.fiit.perconik.feature_0.2.7.v20140413-1819.jar" id="sk.stuba.fiit.perconik.feature" version="0.2.7.v20140413-1819">
+   <feature url="features/sk.stuba.fiit.perconik.feature_0.2.8.v20140414-1151.jar" id="sk.stuba.fiit.perconik.feature" version="0.2.8.v20140414-1151">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
-   <feature url="features/com.gratex.perconik.services.feature_0.4.2.v20140413-1819.jar" id="com.gratex.perconik.services.feature" version="0.4.2.v20140413-1819">
+   <feature url="features/com.gratex.perconik.services.feature_0.5.0.v20140414-1151.jar" id="com.gratex.perconik.services.feature" version="0.5.0.v20140414-1151">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
-   <feature url="features/com.gratex.perconik.tag.feature_0.3.0.v20140413-1819.jar" id="com.gratex.perconik.tag.feature" version="0.3.0.v20140413-1819">
+   <feature url="features/com.gratex.perconik.tag.feature_0.3.1.v20140414-1152.jar" id="com.gratex.perconik.tag.feature" version="0.3.1.v20140414-1152">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
-   <feature url="features/sk.stuba.fiit.perconik.activity.feature_0.0.3.v20140413-1819.jar" id="sk.stuba.fiit.perconik.activity.feature" version="0.0.3.v20140413-1819">
+   <feature url="features/sk.stuba.fiit.perconik.activity.feature_0.0.4.v20140414-1151.jar" id="sk.stuba.fiit.perconik.activity.feature" version="0.0.4.v20140414-1151">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
    <category-def name="sk.stuba.fiit.perconik" label="PerConIK Eclipse Integration"/>
