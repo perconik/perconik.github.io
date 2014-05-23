@@ -9,43 +9,42 @@
       </div>
 
       <p>
-        <xsl:value-of select="description"/>
+        <xsl:value-of select="description" />
       </p>
 
       <br/>
       
       <table class="table table-bordered table-striped">
         <xsl:for-each select="category-def">
-          <xsl:sort select="@label" order="ascending" case-order="upper-first"/>
-          <xsl:sort select="@name" order="ascending" case-order="upper-first"/>
+          <xsl:sort select="@name" order="ascending" case-order="upper-first" />
           <xsl:if test="count(key('cat',@name)) != 0">
             <thead>
               <tr>
                 <th>
-                  <xsl:value-of select="@name"/>
+                  <xsl:value-of select="@name" />
                 </th>
 <!--
                 <th>
-                  <xsl:value-of select="@label"/>
+                  <xsl:value-of select="@label" />
                 </th>
 -->
               </tr>
             </thead>
             <tbody>
               <xsl:for-each select="key('cat',@name)">
-              <xsl:sort select="ancestor::feature//@version" order="ascending"/>
-              <xsl:sort select="ancestor::feature//@id" order="ascending" case-order="upper-first"/>
+              <xsl:sort select="ancestor::feature//@version" order="ascending" />
+              <xsl:sort select="ancestor::feature//@id" order="ascending" case-order="upper-first" />
               <tr>
                 <td>
                     <xsl:choose>
                     <xsl:when test="ancestor::feature//@label">
-                      <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@label"/></a>
+                      <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@label" /></a>
                       <p>
-                      (<xsl:value-of select="ancestor::feature//@id"/> - <xsl:value-of select="ancestor::feature//@version"/>)
+                      (<xsl:value-of select="ancestor::feature//@id" /> - <xsl:value-of select="ancestor::feature//@version" />)
                       </p>
                     </xsl:when>
                     <xsl:otherwise>
-                      <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@id"/> - <xsl:value-of select="ancestor::feature//@version"/></a>
+                      <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@id" /> - <xsl:value-of select="ancestor::feature//@version" /></a>
                     </xsl:otherwise>
                     </xsl:choose>
                     <br />
@@ -56,25 +55,25 @@
                     <xsl:if test="ancestor::feature//@os">
                       <tr>
                       <td>Operating Systems:</td>
-                      <td><xsl:value-of select="ancestor::feature//@os"/></td>
+                      <td><xsl:value-of select="ancestor::feature//@os" /></td>
                       </tr>
                     </xsl:if>
                     <xsl:if test="ancestor::feature//@ws">
                       <tr>
                       <td>Windows Systems:</td>
-                      <td><xsl:value-of select="ancestor::feature//@ws"/></td>
+                      <td><xsl:value-of select="ancestor::feature//@ws" /></td>
                       </tr>
                     </xsl:if>
                     <xsl:if test="ancestor::feature//@nl">
                       <tr>
                       <td>Languages:</td>
-                      <td><xsl:value-of select="ancestor::feature//@nl"/></td>
+                      <td><xsl:value-of select="ancestor::feature//@nl" /></td>
                       </tr>
                     </xsl:if>
                     <xsl:if test="ancestor::feature//@arch">
                       <tr>
                       <td>Architecture:</td>
-                      <td><xsl:value-of select="ancestor::feature//@arch"/></td>
+                      <td><xsl:value-of select="ancestor::feature//@arch" /></td>
                       </tr>
                     </xsl:if>
                   </table>
