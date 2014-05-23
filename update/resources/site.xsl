@@ -32,22 +32,20 @@
             </thead>
             <tbody>
               <xsl:for-each select="key('cat',@name)">
-              <xsl:sort select="ancestor::feature//@version" order="ascending" />
               <xsl:sort select="ancestor::feature//@id" order="ascending" case-order="upper-first" />
               <tr>
                 <td>
-                    <xsl:choose>
-                    <xsl:when test="ancestor::feature//@label">
-                      <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@label" /></a>
-                      <p>
-                      (<xsl:value-of select="ancestor::feature//@id" /> - <xsl:value-of select="ancestor::feature//@version" />)
-                      </p>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@id" /> - <xsl:value-of select="ancestor::feature//@version" /></a>
-                    </xsl:otherwise>
-                    </xsl:choose>
-                    <br />
+                   <xsl:choose>
+                   <xsl:when test="ancestor::feature//@label">
+                     <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@label" /></a>
+                     <p>
+                     (<xsl:value-of select="ancestor::feature//@id" /> - <xsl:value-of select="ancestor::feature//@version" />)
+                     </p>
+                   </xsl:when>
+                   <xsl:otherwise>
+                     <a href="{ancestor::feature//@url}"><xsl:value-of select="ancestor::feature//@id" /> - <xsl:value-of select="ancestor::feature//@version" /></a>
+                   </xsl:otherwise>
+                   </xsl:choose>
                 </td>
   <!--              
                 <td>
