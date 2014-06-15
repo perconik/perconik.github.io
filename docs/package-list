@@ -5,7 +5,6 @@ com.gratex.perconik.activity.ide.preferences
 com.gratex.perconik.activity.ide.ui
 com.gratex.perconik.activity.plugin
 com.gratex.perconik.services
-com.gratex.perconik.services.activity
 com.gratex.perconik.services.ast.rcs
 com.gratex.perconik.services.ast.rcs.entity
 com.gratex.perconik.services.ast.rcs.serialization
@@ -16,8 +15,8 @@ com.gratex.perconik.services.itm.serialization.arrays
 com.gratex.perconik.services.itm.serialization.queries
 com.gratex.perconik.services.plugin
 com.gratex.perconik.services.tag
-com.gratex.perconik.services.uaca.vs
-com.gratex.perconik.services.uaca.vs.notifications
+com.gratex.perconik.services.uaca.ide
+com.gratex.perconik.services.uaca.ide.type
 com.gratex.perconik.tag.antlr
 com.gratex.perconik.tag.assistant
 com.gratex.perconik.tag.builder
@@ -28,8 +27,13 @@ com.gratex.perconik.tag.utils
 com.gratex.perconik.tag.ws
 sk.stuba.fiit.perconik.activity
 sk.stuba.fiit.perconik.activity.data
+sk.stuba.fiit.perconik.activity.data.base
+sk.stuba.fiit.perconik.activity.data.bind
+sk.stuba.fiit.perconik.activity.data.core
+sk.stuba.fiit.perconik.activity.data.eclipse
 sk.stuba.fiit.perconik.activity.data.events
-sk.stuba.fiit.perconik.activity.data.listeners
+sk.stuba.fiit.perconik.activity.data.system
+sk.stuba.fiit.perconik.activity.data.type
 sk.stuba.fiit.perconik.activity.listeners
 sk.stuba.fiit.perconik.activity.plugin
 sk.stuba.fiit.perconik.activity.preferences
