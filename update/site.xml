@@ -3,20 +3,21 @@
    <description name="PerConIK Eclipse Integration" url="http://perconik.github.io/update">
       Update site for Eclipse features and plug-ins pertaining to PerConIK research project.
    </description>
-   <feature url="features/com.gratex.perconik.activity.feature_0.7.1.v20140526-2026.jar" id="com.gratex.perconik.activity.feature" version="0.7.1.v20140526-2026">
+   <feature url="features/com.gratex.perconik.activity.feature_0.7.3.v20140615-2213.jar" id="com.gratex.perconik.activity.feature" version="0.7.3.v20140615-2213">
+      <category name="com.gratex.perconik"/>
+   </feature>
+   <feature url="features/com.gratex.perconik.services.feature_0.7.3.v20140615-2213.jar" id="com.gratex.perconik.services.feature" version="0.7.3.v20140615-2213">
+      <category name="com.gratex.perconik"/>
+   </feature>
+   <feature url="features/com.gratex.perconik.tag.feature_0.5.3.v20140615-2213.jar" id="com.gratex.perconik.tag.feature" version="0.5.3.v20140615-2213">
+      <category name="com.gratex.perconik"/>
+   </feature>
+   <feature url="features/sk.stuba.fiit.perconik.activity.feature_0.0.9.v20140615-2213.jar" id="sk.stuba.fiit.perconik.activity.feature" version="0.0.9.v20140615-2213">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
-   <feature url="features/sk.stuba.fiit.perconik.feature_0.3.1.v20140526-2026.jar" id="sk.stuba.fiit.perconik.feature" version="0.3.1.v20140526-2026">
+   <feature url="features/sk.stuba.fiit.perconik.feature_0.3.3.v20140615-2213.jar" id="sk.stuba.fiit.perconik.feature" version="0.3.3.v20140615-2213">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
-   <feature url="features/com.gratex.perconik.services.feature_0.7.1.v20140526-2026.jar" id="com.gratex.perconik.services.feature" version="0.7.1.v20140526-2026">
-      <category name="sk.stuba.fiit.perconik"/>
-   </feature>
-   <feature url="features/com.gratex.perconik.tag.feature_0.5.1.v20140526-2026.jar" id="com.gratex.perconik.tag.feature" version="0.5.1.v20140526-2026">
-      <category name="sk.stuba.fiit.perconik"/>
-   </feature>
-   <feature url="features/sk.stuba.fiit.perconik.activity.feature_0.0.7.v20140526-2026.jar" id="sk.stuba.fiit.perconik.activity.feature" version="0.0.7.v20140526-2026">
-      <category name="sk.stuba.fiit.perconik"/>
-   </feature>
+   <category-def name="com.gratex.perconik" label="New Category 1"/>
    <category-def name="sk.stuba.fiit.perconik" label="PerConIK Eclipse Integration"/>
 </site>
