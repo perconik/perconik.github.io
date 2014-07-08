@@ -1,10 +1,8 @@
+.metadata
+.settings
+
 bin
 tmp
-
-.classpath
-.metadata
-.project
-.settings
 
 update/p2agent
 update/targetPlatformRepository
