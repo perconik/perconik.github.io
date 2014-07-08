@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="PerConIK Eclipse Integration" url="http://perconik.github.io/update">
+      Update site for Eclipse features and plug-ins pertaining to PerConIK research project.
+   </description>
+   <feature id="com.gratex.perconik.activity.feature" version="0.0.0">
+      <category name="com.gratex.perconik"/>
+   </feature>
+   <feature id="com.gratex.perconik.services.feature" version="0.0.0">
+      <category name="com.gratex.perconik"/>
+   </feature>
+   <feature id="com.gratex.perconik.tag.feature" version="0.0.0">
+      <category name="com.gratex.perconik"/>
+   </feature>
+   <feature id="sk.stuba.fiit.perconik.activity.feature" version="0.0.0">
+      <category name="sk.stuba.fiit.perconik"/>
+   </feature>
+   <feature id="sk.stuba.fiit.perconik.core.feature" version="0.0.0">
+      <category name="sk.stuba.fiit.perconik"/>
+   </feature>
+   <feature id="sk.stuba.fiit.perconik.feature" version="0.0.0">
+      <category name="sk.stuba.fiit.perconik"/>
+   </feature>
+   <category-def name="com.gratex.perconik" label="Gratex International"/>
+   <category-def name="sk.stuba.fiit.perconik" label="Faculty of Intormatics and Information Technologies"/>
+</site>
