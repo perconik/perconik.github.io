@@ -5,11 +5,11 @@
     <title>PerConIK Eclipse Integration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Pavol Zbell" />
-    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen" />
-    <link href="stylesheets/layout.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="assets/stylesheets/layout.css" rel="stylesheet" type="text/css" media="all" />
     <!--[if lt IE 9]>
-      <script src="javascripts/html5shiv.js"></script>
-      <script src="javascripts/respond.min.js"></script>
+      <script src="assets/javascripts/html5shiv.js"></script>
+      <script src="assets/javascripts/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
@@ -25,7 +25,7 @@
           <ul class="nav navbar-nav">
             <li><a href="https://github.com/perconik">GitHub Organization</a></li>
             <li><a href="docs/index.html">Eclipse Plug-in Javadocs</a></li>
-            <li><a href="update/index.html">Eclipse Plug-in Update Site</a></li>
+            <li><a href="http://perconik.fiit.stuba.sk/UserActivity">User Activity</a></li>
           </ul>
         </div>
       </div>
@@ -55,11 +55,11 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="list-unstyled">
-                  <li>Java Platform SE 7 (or higher)</li>
-                  <li>Eclipse Platform 4.3.0 (or higher)<li>
-                  <li>Eclipse Java Development Tools and Eclipse EGit (for proper activity logging)</li>
-                  <li>UACA at least <a href="images/spongebob-and-patrick.jpg">Spongebob &amp; Patrick</a> version (depends on Windows operating system and .NET 4.0)</li>
-                  <li>Internet connection (may be required by some services depending on configuration)</li>
+                  <li><a href="https://java.com/en/download">Java Platform SE 7</a></li>
+                  <li><a href="https://eclipse.org/downloads">Eclipse Platform 4.3</a><li>
+                  <li>Eclipse Java Development Tools with EGit</li>
+                  <li><a href="http://perconik.fiit.stuba.sk/UserActivity/Default/InstallationGuide">User Activity Central Application 2.0</a></li>
+                  <li>Internet connection</li>
                 </ul>
               </div>
             </div>
@@ -83,12 +83,8 @@
               <dd>PerConIK Eclipse Integration</dd>
               
               <dt>Location</dt>
-              <dd>http://perconik.github.io/update</dd>
+              <dd>http://perconik.github.io/update/repository</dd>
             </dl>
-
-            <p>
-              (see <a href="update/index.html">Eclipse Plug-in Update Site</a> for more details about current stable plug-in version)
-            </p>
             
             <hr/>
             
@@ -99,7 +95,7 @@
             <ol>
               <li>Add Eclipse Plug-in Update Site (see Quick Installation Guide above)</li>
               <li>Go to <em>Help</em> &rarr; <em>Install New Software...</em></li>
-              <li>Select <em>PerConIK Update Site - http://perconik.github.io/update</em> in the <em>Work with</em> field</li>
+              <li>Select <em>PerConIK Update Site - http://perconik.github.io/update/repository</em> in the <em>Work with</em> field</li>
               <li>Check <em>PerConIK Eclipse Installation</em> and proceed with <em>Next</em></li>
               <li>Accept the terms of license agreement and <em>Finish</em> the installation</li>
               <li>Plug-ins are not digitally signed, go ahead and install anyway</li>
@@ -129,7 +125,7 @@
             <div class="row">
               <div class="col-md-8">
                 <p class="alert alert-warning text-center">
-                  Don't mess with default preferences unless you exactly know what you're doing, yo!
+                  Don't mess with default preferences unless you exactly know what you're doing!
                 </p>
               </div>
             </div>
@@ -139,6 +135,8 @@
             </p>
 
             <dl class="dl-horizontal">
+              <dt>Elasticsearch</dt>
+              <dd>Preferences related to communication with Elasticsearch Cluster</dd>
               <dt>Listeners</dt>
               <dd>Management of active listeners</dd>
               <dt>Resources</dt>
@@ -158,7 +156,7 @@
             <h3>Activities</h3>
             
             <p>
-              Make sure proper listeners are active (see preferences) and just code in <em>Eclipse</em> as always.
+              Make sure proper listeners are active (see preferences) and then just work in <em>Eclipse</em> as always.
             </p>
             
             <h3>Tags</h3>
@@ -178,7 +176,7 @@
             </div>
 
             <ul class="list-unstyled">
-              <li><a href="presentations/perconik-eclipse-integration-20131105-update.pdf">Project overview presentation</a> explaining plug-in core features with some basic examples as well.</li>
+              <li><a href="assets/presentations/perconik-eclipse-integration-20131105-update.pdf">Project overview presentation</a> explaining plug-in core features with some basic examples as well.</li>
               <li>Almost all of plug-in's core source code is well documented. See plug-in <a href="docs/index.html">Javadocs</a> for more details.</li>
               <li>Collected user activity data is partially documented in respective listeners. See <a href="docs/com/gratex/perconik/activity/ide/listeners/IdeListener.html">IdeListener</a> and its known subclasses for more details.</li>
               <li>Examples of extended <a href="https://github.com/perconik/perconik/tree/master/sk.stuba.fiit.perconik.core.java.examples/src/sk/stuba/fiit/perconik/core/java/examples">Java DOM API</a> usage.</li>
@@ -196,7 +194,7 @@
       </div>
     </footer>
     
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="assets/javascripts/jquery.min.js"></script>
+    <script src="assets/javascripts/bootstrap.min.js"></script>
   </body>
 </html>

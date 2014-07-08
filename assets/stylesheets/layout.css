@@ -8,8 +8,8 @@ section h4 { font-weight: normal; }
 
 p { text-align: justify; }
 
-.dl-horizontal dt { width: 80px; font-weight: normal; text-align: left; }
-.dl-horizontal dd { margin-left: 100px; }
+.dl-horizontal dt { width: 100px; font-weight: normal; text-align: left; }
+.dl-horizontal dd { margin-left: 120px; }
 
 .navbar-brand { font-size: 16px; }
 
