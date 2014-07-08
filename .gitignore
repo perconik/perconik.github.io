@@ -5,3 +5,10 @@ tmp
 .metadata
 .project
 .settings
+
+update/p2agent
+update/targetPlatformRepository
+update/local-artifacts.properties
+update/category.xml
+update/p2*.xml
+update/*-SNAPSHOT.zip
