@@ -4,7 +4,7 @@
   	<parent>
 		<groupId>perconik</groupId>
 		<artifactId>perconik</artifactId>
-		<version>0.1.3-SNAPSHOT</version>
+		<version>0.2.0-SNAPSHOT</version>
 		<relativePath>../perconik</relativePath>
 	</parent>
 
@@ -14,5 +14,29 @@
 	<build>
 		<directory>update</directory>
 		<outputDirectory>update</outputDirectory>
+		
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.9.1</version>
+				<configuration>
+					<reportOutputDirectory>a</reportOutputDirectory>
+					<destDir>b</destDir>
+					
+					<doctitle>PerConIK Eclipse Integration ${project.version} API Specification</doctitle>
+					
+					<detectLinks>true</detectLinks>
+					<detectJavaApiLink>true</detectJavaApiLink>
+					
+					<groups>
+						<group>
+							<title></title>
+							<packages>javax.*</packages>
+						</group>
+					</groups>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
