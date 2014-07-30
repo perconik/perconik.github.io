@@ -1,42 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-  	<parent>
-		<groupId>perconik</groupId>
-		<artifactId>perconik</artifactId>
-		<version>0.4.0-SNAPSHOT</version>
-		<relativePath>../perconik</relativePath>
-	</parent>
+  <parent>
+    <groupId>perconik</groupId>
+    <artifactId>perconik</artifactId>
+    <version>0.5.1-SNAPSHOT</version>
+    <relativePath>../perconik</relativePath>
+  </parent>
 
-	<artifactId>perconik.update</artifactId>
-	<packaging>eclipse-repository</packaging>
+  <artifactId>perconik.update</artifactId>
+  <packaging>eclipse-repository</packaging>
 
-	<build>
-		<directory>update</directory>
-		<outputDirectory>update</outputDirectory>
-		
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.9.1</version>
-				<configuration>
-					<reportOutputDirectory>a</reportOutputDirectory>
-					<destDir>b</destDir>
-					
-					<doctitle>PerConIK Eclipse Integration ${project.version} API Specification</doctitle>
-					
-					<detectLinks>true</detectLinks>
-					<detectJavaApiLink>true</detectJavaApiLink>
-					
-					<groups>
-						<group>
-							<title></title>
-							<packages>javax.*</packages>
-						</group>
-					</groups>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+  <build>
+    <directory>update</directory>
+    <outputDirectory>update</outputDirectory>
+  </build>
 </project>

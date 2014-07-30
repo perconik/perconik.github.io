@@ -9,9 +9,6 @@
    <feature id="com.gratex.perconik.services.feature" version="0.0.0">
       <category name="com.gratex.perconik"/>
    </feature>
-   <feature id="com.gratex.perconik.tag.feature" version="0.0.0">
-      <category name="com.gratex.perconik"/>
-   </feature>
    <feature id="sk.stuba.fiit.perconik.activity.feature" version="0.0.0">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
