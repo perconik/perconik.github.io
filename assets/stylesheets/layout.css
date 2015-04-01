@@ -3,7 +3,7 @@ header { margin: 0px; }
 footer { margin: 100px 0px 50px; }
 
 section:first-child { margin-top: 100px; }
-section h2 { padding-top: 40px; }
+section h2 { padding-top: 80px; }
 section h4 { font-weight: normal; }
 
 p { text-align: justify; }
