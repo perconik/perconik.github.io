@@ -10,12 +10,15 @@ com.gratex.perconik.uaca
 com.gratex.perconik.uaca.plugin
 com.gratex.perconik.uaca.preferences
 com.gratex.perconik.uaca.ui.preferences
-sk.stuba.fiit.perconik.activity
 sk.stuba.fiit.perconik.activity.data
 sk.stuba.fiit.perconik.activity.data.core
 sk.stuba.fiit.perconik.activity.data.platform
 sk.stuba.fiit.perconik.activity.data.process
 sk.stuba.fiit.perconik.activity.data.system
+sk.stuba.fiit.perconik.activity.debug
+sk.stuba.fiit.perconik.activity.debug.listeners
+sk.stuba.fiit.perconik.activity.debug.listeners.ui
+sk.stuba.fiit.perconik.activity.debug.plugin
 sk.stuba.fiit.perconik.activity.events
 sk.stuba.fiit.perconik.activity.listeners
 sk.stuba.fiit.perconik.activity.listeners.command
