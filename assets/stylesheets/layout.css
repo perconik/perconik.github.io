@@ -4,9 +4,12 @@ footer { margin: 100px 0px 50px; }
 
 section:first-child { margin-top: 100px; }
 section h2 { padding-top: 80px; }
-section h4 { font-weight: normal; }
+section h4 { font-size: 16px; font-weight: normal; }
 
 p { text-align: justify; }
+
+dl { margin: 0px 0px 20px; }
+ul { margin: 0px 0px 20px; }
 
 .dl-horizontal dt { width: 100px; font-weight: normal; text-align: left; }
 .dl-horizontal dd { margin-left: 120px; }
