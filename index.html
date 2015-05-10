@@ -37,11 +37,17 @@
           <h1 id="overview">PerConIK Eclipse Integration</h1>
         </div>
 
+        <p>
+          <em>A collection of Eclipse features and plug-ins to track user activity in Java IDE pertaining to PerConIK research project</em>
+        </p>
+        
+        <hr/>
+        
         <ul class="list-unstyled">
           <li><em><a href="http://stuba.sk">Slovak University of Technology in Bratislava</a></em></li>
           <li><em><a href="http://fiit.stuba.sk">Faculty of Informatics and Information Technologies</a></em></li>
           <li><em><a href="http://perconik.fiit.stuba.sk/">PerConIK Project Site</a></em></li>
-        </ul>
+        </ul>        
       </section>
     
       <section>
@@ -49,18 +55,22 @@
           <h2 id="requirements">Requirements</h2>
         </div>
         
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="list-unstyled">
-              <li><a href="https://java.com/en/download">Java Platform SE 7</a></li>
-              <li><a href="https://eclipse.org/downloads">Eclipse Platform 4.3</a><li>
-              <li><a href="https://eclipse.org/jdt">Eclipse Java Development Tools 3.8</a></li>
-              <li><a href="https://eclipse.org/egit/download">Eclipse EGit 2.2</a></li>
-              <li><a href="http://perconik.fiit.stuba.sk/UserActivity/Default/InstallationGuide">User Activity Central Application 2.0</a></li>
-              <li>Internet connection</li>
-            </ul>
-          </div>
-        </div>
+        <h3>Minimal</h3>
+        
+        <ul class="list-unstyled">
+          <li><a href="https://java.com/en/download">Java Platform SE 7</a></li>
+          <li><a href="https://eclipse.org/downloads">Eclipse Platform 4.3</a><li>
+          <li><a href="https://eclipse.org/jdt">Eclipse Java Development Tools 3.8</a></li>
+          <li><a href="https://eclipse.org/egit/download">Eclipse EGit 2.2</a></li>
+        </ul>
+        
+        <h3>Optional</h3>
+
+        <ul class="list-unstyled">
+          <li><a href="https://elastic.co/downloads">Elasticsearch 1.5</a></li>
+          <li><a href="http://perconik.fiit.stuba.sk/UserActivity/Default/InstallationGuide">User Activity Central Application 2.0</a></li>
+          <li>Internet connection</li>
+        </ul>
       </section>
       
       <section>
@@ -68,7 +78,7 @@
           <h2 id="installation">Installation</h2>
         </div>
         
-        <h4>Quick Installation Guide:</h4>
+        <h3>Quick Installation Guide</h3>
         
         <p>
           <em>Eclipse</em> &rarr; <em>Help</em> &rarr; <em>Install New Software...</em> &rarr; <em>Available Software Sites</em> &rarr; <em>Add</em>
@@ -84,7 +94,7 @@
         
         <hr/>
         
-        <h4>Full Installation Guide:</h4>
+        <h3>Full Installation Guide</h3>
         
         <ol>
           <li>Add Eclipse Plug-in Update Site (see Quick Installation Guide above)</li>
@@ -98,7 +108,11 @@
         
         <hr/>
 
-        <h4>Installed plug-ins can be easily updated via:</h4>
+        <h3>Note on Updates</h3>
+        
+        <p>
+          Installed plug-ins can be easily updated via:
+        </p>
         
         <p>
           <em>Eclipse</em> &rarr; <em>Help</em> &rarr; <em>Install New Software...</em> or <em>Eclipse</em> &rarr; <em>Help</em> &rarr; <em>Check for Updates</em>
@@ -121,6 +135,8 @@
         <dl class="dl-horizontal">
           <dt>Activity</dt>
           <dd>Configuration of activity listeners</dd>
+          <dt>Elasticsearch</dt>
+          <dd>Communication with Elasticsearch</dd>
           <dt>Listeners</dt>
           <dd>Management of listeners</dd>
           <dt>Resources</dt>
@@ -137,27 +153,27 @@
           <h2 id="documentation">Documentation</h2>
         </div>
 
-        <h4>Documents</h4>
+        <h3>Documents</h3>
 
         <ul class="list-unstyled">
-          <li><a href="assets/documents/perconik-activity-listeners-documentation-20150424-update.pdf">Documentation of activity listeners</a> introducing basic mechanics and structurally describing listeners. Reflects project status at release <a href="https://github.com/perconik/perconik/releases/tag/v0.27.0">v0.27.0</a></li>
-          <li><a href="assets/documents/perconik-eclipse-integration-analysis-20140525-update.pdf">Analysis of selected components</a> describing model diagrams and applied design patterns. Reflects project status at legacy release <a href="https://github.com/perconik/perconik/releases/tag/0.1.12-core">0.1.12-core</a></li>
+          <li><a href="assets/documents/perconik-activity-listeners-documentation-20150424-update.pdf">Documentation of activity listeners</a> introducing basic mechanics and structurally describing listeners, reflects project status at release <a href="https://github.com/perconik/perconik/releases/tag/v0.27.0">v0.27.0</a></li>
+          <li><a href="assets/documents/perconik-eclipse-integration-analysis-20140525-update.pdf">Analysis of selected components</a> describing model diagrams and applied design patterns, reflects project status at legacy release <a href="https://github.com/perconik/perconik/releases/tag/0.1.12-core">0.1.12-core</a></li>
         </ul>
         
-        <h4>Presentations</h4>
+        <h3>Presentations</h3>
 
         <ul class="list-unstyled">
-          <li><a href="assets/presentations/perconik-eclipse-integration-overview-20131105-update.pdf">Project overview and features presentation</a> introducing plug-in core features alonside inner workings. Reflects project status at legacy release <a href="https://github.com/perconik/perconik/releases/tag/0.1.5-core">0.1.5-core</a></li>
+          <li><a href="assets/presentations/perconik-eclipse-integration-overview-20131105-update.pdf">Project overview and features presentation</a> introducing plug-in core features alonside inner workings, reflects project status at legacy release <a href="https://github.com/perconik/perconik/releases/tag/0.1.5-core">0.1.5-core</a></li>
         </ul>
 
-        <h4>Javadocs</h4>
+        <h3>Javadocs</h3>
 
         <ul class="list-unstyled">
-          <li>Collected user activity data are partially documented in respective listeners. See <a href="docs/sk/stuba/fiit/perconik/activity/listeners/ActivityListener.html">ActivityListener</a> and <a href="docs/com/gratex/perconik/activity/ide/listeners/IdeListener.html">IdeListener</a> along with known subclasses for more details.</li>
-          <li>Almost all of plug-in's core source code is well documented. See plug-in <a href="docs/index.html">Javadocs</a> for more details.</li>
+          <li>Collected user activity data are partially documented in respective listeners, see <a href="docs/sk/stuba/fiit/perconik/activity/listeners/ActivityListener.html">ActivityListener</a> and <a href="docs/com/gratex/perconik/activity/ide/listeners/IdeListener.html">IdeListener</a> along with known subclasses for more details.</li>
+          <li>Almost all of plug-in's core source code is well documented, see plug-in <a href="docs/index.html">Javadocs</a> for more details.</li>
         </ul>
         
-        <h4>Examples</h4>
+        <h3>Examples</h3>
         
         <ul class="list-unstyled">
           <li>Examples of extended <a href="https://github.com/perconik/perconik/tree/examples/sk.stuba.fiit.perconik.core.java.examples/src/sk/stuba/fiit/perconik/core/java/examples">Java DOM API</a> usage.</li>
@@ -169,7 +185,7 @@
           <h2 id="usage">Usage</h2>
         </div>
         
-        <h4>Activities</h4>
+        <h3>Activities</h3>
         
         <p>
           Make sure proper listeners are active (see preferences) and then just work in <em>Eclipse</em> as always.
