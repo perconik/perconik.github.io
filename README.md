@@ -1,6 +1,6 @@
 # PerConIK Eclipse Integration
 
-User activity tracking in Eclipse.
+A collection of Eclipse features and plug-ins to track user activity
 
 ## Requirements
 
