@@ -18,6 +18,9 @@
    <feature id="sk.stuba.fiit.perconik.core.feature" version="0.0.0">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
+   <feature id="sk.stuba.fiit.perconik.elasticsearch.feature" version="0.0.0">
+      <category name="sk.stuba.fiit.perconik"/>
+   </feature>
    <feature id="sk.stuba.fiit.perconik.feature" version="0.0.0">
       <category name="sk.stuba.fiit.perconik"/>
    </feature>
